@@ -1,0 +1,38 @@
+/* Button.css */
+
+.button {
+    background-color: #00ffc8; /* Azul por defecto */
+    color: #026650;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+  }
+  
+  .button:hover {
+    background-color: #026650; /* Color más oscuro al pasar el ratón */
+    color: #00ffc8;
+  }
+  
+  .button:active {
+    transform: scale(0.95); /* Efecto de clic */
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #026650; /* Resaltado al enfocar */
+  }
+  
+  .button:disabled {
+    background-color: #cccccc; /* Color gris si está deshabilitado */
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+
+  .h1{
+    color: red;
+  }
+  
