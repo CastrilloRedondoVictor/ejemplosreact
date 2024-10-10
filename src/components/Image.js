@@ -1,5 +1,6 @@
 import cibelesImage from '../assets/images/cibeles.avif'
 
+
 function Image() {
 
     return(
